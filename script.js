@@ -23,7 +23,7 @@ const backdivclass = [
   'bg-[#3b0764]', 
   'bg-[#faf5ff]',
   'bg-[#67e8f9]',
-  'bg-[#1d4ed8]',
+  'bg-white',
   'bg-[#10b981]',  
 ];
 
@@ -52,37 +52,44 @@ const leftdivclass = [
 
 // Array to store content for each dot
 const dotContent1 = [
-  `<div class="text-3xl">Redefining</div>
-  <div class="text-5xl font-bold">UX Strategy</div>
-  <div class="text-3xl ml-20 mt-4">and UI design</div>`,
-  
-  `<div class="text-3xl mb-1.5">Powered by advance</div>
-  <img src="img/nasa-mobile-app.png"/>
-  <div class="text-3xl ml-48 mt-4">algorithms</div>`,
 
-  `<div class="text-3xl">The Next Big</div>
+  `<div class="dtu"><div class="text-3xl">Redefining</div>
+  <div class="text-5xl font-bold">UX Strategy</div>
+  <div class="text-3xl ml-20 mt-4">and UI design</div></div>`,
+  
+  `<div class="dtu"><div class="text-3xl mb-1.5">Powered by advance</div>
+  <img src="img/nasa-mobile-app.png"/>
+  <div class="text-3xl ml-48 mt-4">algorithms</div></div>`,
+
+  `<div class="dtu"><div class="text-3xl">The Next Big</div>
   <div class="text-6xl font-bold">Blockchain</div>
   <div class="text-3xl ml-24 mt-4">Revolution</div>
+  </div>
   `,
 
-  `<div class="text-4xl w-max	mt-6 font-bold" style="padding-left:-15px">25M+ Downloads</div>
+  `<div class="dtu"><div class="text-4xl w-max	mt-6 font-bold" style="padding-left:-15px">25M+ Downloads</div>
   <div class="text-xl ml-4 mt-4">on appstore & google playstore</div>
+  </div>
   `,
 
- `<div class="text-2xl">Text Headline</div>
+ `<div class="dtu"><div class="text-2xl">Text Headline</div>
  <div class="text-[46px] font-bold">Text Headline</div>
- <div class="text-2xl ml-28 mt-4">Footer Headline</div>`,
+ <div class="text-2xl ml-28 mt-4">Footer Headline</div>
+ </div>`,
 
-  `<div class="text-2xl">Developing ERP Solution for</div>
+  `<div class="dtu"><div class="text-2xl">Developing ERP Solution for</div>
   <div class="text-[46px] font-bold">Text Headline</div>
-  <div class="text-2xl ml-20 mt-4">in furniture industry</div>`,
+  <div class="text-2xl ml-20 mt-4">in furniture industry</div>
+  </div>`,
 
-  `<div class="text-3xl">Biggest Classifieds</div>
+  `<div class="dtu"><div class="text-3xl">Biggest Classifieds</div>
   <div class="text-7xl font-bold">East Asia</div>
-  <div class="text-3xl ml-36 mt-4">Countries</div>`
+  <div class="text-3xl ml-36 mt-4">Countries</div>
+  </div>`
 ];
+
 const dotContent2 = [
-  `<div class="text-6xl font-semibold">ABCD 456</div>
+  `<div class="dtu"><div class="text-6xl font-semibold">ABCD 456</div>
 
   <div class="text-lg  mt-2">We are the best</div>
   <div class="text-lg">web developement company</div>
@@ -95,7 +102,7 @@ const dotContent2 = [
       <div class="ml-64 text-xl">S K I P</div>
   </div>`,
 
-  ` <div class="text-6xl font-semibold">ABCD 456</div>
+  ` <div class="dtu"><div class="text-6xl font-semibold">ABCD 456</div>
 
   <div class="text-lg  mt-2">We are the best</div>
   <div class="text-lg">web developement company</div>
@@ -107,7 +114,7 @@ const dotContent2 = [
       <div class="ml-64 text-xl">S K I P</div>
   </div>`,
 
-  `<div class="text-6xl font-semibold">ABCD 234</div>
+  `<div class="dtu"><div class="text-6xl font-semibold">ABCD 234</div>
 
   <div class="text-lg  mt-2">We are the best web developement company</div>
   <div class="text-lg">in the world</div>
@@ -120,7 +127,8 @@ const dotContent2 = [
 
 
   `
-  <div class="margin-top:-100px;" style="margin-top: -99px;"><img src="img/world-communication-awards-for-best-digital-experience.png" height="150" width="240"/></div>
+  <div class="dtu w-fit">
+  <div style="margin-top: -99px;"><img src="img/world-communication-awards-for-best-digital-experience.png" height="150" width="240"/></div>
   <div class="text-6xl font-semibold mt-8">ABCD 123</div>
 
   <div class="text-lg  mt-2">We are the best web developement</div>
@@ -131,9 +139,10 @@ const dotContent2 = [
           <svg height="34px" width="20px"  class="ml-6" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 227.096 227.096" xml:space="preserve" fill="#ffffff" stroke="#ffffff" stroke-width="1.362576"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <g> <g> <polygon style="fill:#ffffff;" points="152.835,39.285 146.933,45.183 211.113,109.373 0,109.373 0,117.723 211.124,117.723 146.933,181.902 152.835,187.811 227.096,113.55 "></polygon> </g> </g> </g></svg>                    
           </div>
       <div class="ml-64 text-xl">S K I P</div>
-  </div>`,
+  </div></div>`,
 
   `
+  <div class="dtu">
   <div class="text-6xl font-semibold">ABCD 567</div>
 
   <div class="text-lg  mt-2">We are the best AR</div>
@@ -145,9 +154,11 @@ const dotContent2 = [
           <svg height="34px" width="20px"  class="ml-6" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 227.096 227.096" xml:space="preserve" fill="#ffffff" stroke="#ffffff" stroke-width="1.362576"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <g> <g> <polygon style="fill:#ffffff;" points="152.835,39.285 146.933,45.183 211.113,109.373 0,109.373 0,117.723 211.124,117.723 146.933,181.902 152.835,187.811 227.096,113.55 "></polygon> </g> </g> </g></svg>                    
           </div>
       <div class="ml-64 text-xl">S K I P</div>
-  </div>`,
+  </div></div>`,
 
-  `<div class="text-6xl font-semibold">ABCD 678</div>
+  `
+  <div class="dtu">
+  <div class="text-6xl font-semibold">ABCD 678</div>
 
   <div class="text-lg  mt-2">Best since 2017</div>
   <div class="text-lg">We offere wide range of</div>
@@ -158,9 +169,11 @@ const dotContent2 = [
           <svg height="34px" width="20px"  class="ml-6" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 227.096 227.096" xml:space="preserve" fill="#ffffff" stroke="#ffffff" stroke-width="1.362576"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <g> <g> <polygon style="fill:#ffffff;" points="152.835,39.285 146.933,45.183 211.113,109.373 0,109.373 0,117.723 211.124,117.723 146.933,181.902 152.835,187.811 227.096,113.55 "></polygon> </g> </g> </g></svg>                    
           </div>
       <div class="ml-64 text-xl">S K I P</div>
-  </div>`,
+  </div></div>`,
 
-    `<div class="margin-top:-100px;" style="margin-top: -99px;"><img src="img/mobile-app-of-the-year-by-entrepreneur.png" height="150" width="240"/></div>
+    `
+    <div class="dtu w-fit">
+    <div class="margin-top:-100px;" style="margin-top: -99px;"><img src="img/mobile-app-of-the-year-by-entrepreneur.png" height="150" width="240"/></div>
     <div class="text-6xl font-semibold mt-8">ABCD 23478</div>
   
     <div class="text-lg  mt-2">We are the best</div>
@@ -172,76 +185,77 @@ const dotContent2 = [
             <svg height="34px" width="20px"  class="ml-6" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 227.096 227.096" xml:space="preserve" fill="#ffffff" stroke="#ffffff" stroke-width="1.362576"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <g> <g> <polygon style="fill:#ffffff;" points="152.835,39.285 146.933,45.183 211.113,109.373 0,109.373 0,117.723 211.124,117.723 146.933,181.902 152.835,187.811 227.096,113.55 "></polygon> </g> </g> </g></svg>                    
             </div>
         <div class="ml-64 text-xl">S K I P</div>
-    </div>`
+    </div></div>`
 ];
+
 const dotContent3 = [
   `  <div class="flex">
   <div class="">
-      <img src="img/pizza_box.png"/>
-      <img src="img/domi-img1.png" style="height:515px; padding-left:45px;padding-top: 150px;"/>
+      <img class="utd" src="img/pizza_box.png"/>
+      <img class="dtu" src="img/domi-img1.png" style="height:515px; padding-left:45px;padding-top: 150px;"/>
   </div> 
   <div class="">
-      <img src="img/ux-strategy-for-mobile-app-devlopment.png" style="height:595px;padding-top: 150px;" /> 
+      <img class="utd" src="img/ux-strategy-for-mobile-app-devlopment.png" style="height:595px;padding-top: 150px;" /> 
   </div>
   <div>
-      <img src="img/dominos-bread.png" style="margin-top: -100px;"/>
-      <img src="img/dominos-bread1.png" style="height:195px;margin-top: 400px;"/>
+      <img class="utd" src="img/dominos-bread.png" style="margin-top: -100px;"/>
+      <img class="dtu" src="img/dominos-bread1.png" style="height:195px;margin-top: 400px;"/>
 
   </div>
 </div>`,
 
   `<div class="flex">
   <div class="">
-      <img src="img/nasa-fitness-tracking-mobile-app.png" style="height:650px; margin-left:150px;padding-top: 150px;"/>
+      <img class="dtu" src="img/nasa-fitness-tracking-mobile-app.png" style="height:650px; margin-left:150px;padding-top: 150px;"/>
   </div> 
   <div class="">
-      <img src="img/measure-total-body-weight-through-fitness-app.png" style="height:595px;margin-top:-130px;margin-left:15px" /> 
+      <img class="utd" src="img/measure-total-body-weight-through-fitness-app.png" style="height:595px;margin-top:-130px;margin-left:15px" /> 
   </div>
 </div>`,
 
 
 `<div class="flex">
-<div class="">
-    <img src="img/veme-blockchain-app-developed.png" style="height:650px; margin-left:150px;padding-top: 150px;margin-top:102px"/>
+<div >
+    <img class="dtu" src="img/veme-blockchain-app-developed.png" style="height:650px; margin-left:150px;padding-top: 150px;margin-top:102px"/>
 </div> 
-<div class="">
-    <img src="img/veme-app-ui-design.png" style="height:595px;margin-top:-130px;margin-left:15px" /> 
+<div >
+    <img  class="utd" src="img/veme-app-ui-design.png" style="height:595px;margin-top:-130px;margin-left:15px" /> 
 </div>
 </div>`,
 
 
   `<div class="flex">
   <div class="ml-12">
-      <img src="img/nexgtv-entertainment-mobile-app-development.png" style="height:650px;margin-top:95px"/>
+      <img class="utd" src="img/nexgtv-entertainment-mobile-app-development.png" style="height:650px;margin-top:95px;margin-left:30px;"/>
   </div> 
   <div class="">
-      <img src="img/nexgtv-mobile-app-ui-design.png" style="height:650px;margin-top:95px;margin-left:-25px;"/>
+      <img class="dtu" src="img/nexgtv-mobile-app-ui-design.png" style="height:650px;margin-top:95px;margin-left:-25px;"/>
   </div>
   </div>`,
 
   `<div class="flex ml-32 fixed">
   <div class="mr-4">
-  <img src="img/karavan-social-networking-app-screen.png" height="350" width="200" style="margin-top:-100px;"/>
-  <img src="img/karavan_2.png"  height="350" width="200" style="margin-top: 180px;"/>
+  <img class="utd" src="img/karavan-social-networking-app-screen.png" height="350" width="200" style="margin-top:-100px;"/>
+  <img class="dtu" src="img/karavan_2.png"  height="350" width="200" style="margin-top: 180px;"/>
 </div>
   <div class="mr-4">
-  <img src="img/social-networking-app-case-study.png"  height="350" width="200" style="margin-top:-30px;"/>
-  <img src="img/karavan-social-networking-app-screen-2.png"  height="350" width="200" style="margin-top: 210px;"/>
+  <img class="utd" src="img/social-networking-app-case-study.png"  height="350" width="200" style="margin-top:-30px;"/>
+  <img class="dtu" src="img/karavan-social-networking-app-screen-2.png"  height="350" width="200" style="margin-top: 210px;"/>
   </div>
   <div>
-  <img src="img/developers-for-social-media-app.png"  height="350" width="200" style="margin-top:185px;"/>
+  <img class="utd" src="img/developers-for-social-media-app.png"  height="350" width="200" style="margin-top:185px;"/>
   </div>
   </div>`,
 
   `
-  <div style="background-image: url('img/interior.jpg'); background-size: cover; background-position: center; width: 100%; height: 100vh;">
-  <img src="img/erp-app-development-service.png"/>
+  <div class="" style="background-image: url('img/erp-app-development-service.png'); background-size: cover; background-position: center; width: 100%; height: 100vh;">
+  <img class="utd" src="img/erp-app-development-service.png"/>
   </div>
   `,
 
-  `<div class="ml-48 flex fixed">
-  <img src="img/melltoo-img2.png" class="z-0" height="280" width="350" style="margin-top:250px;margin-right:-106px;"/>
-  <img src="img/melltoo-img1.png" height="350" width="300" style="margin-top:210px;"/>
+  `<div class="ml-48 flex fixed z-0">
+  <img  class="dtu" src="img/melltoo-img2.png"  height="280" width="350" style="margin-top:250px;margin-right:-106px;"/>
+  <img class="dtu" src="img/melltoo-img1.png" height="350" width="300" style="margin-top:210px;"/>
   </div>`
 
 ];
@@ -270,8 +284,12 @@ dots.forEach((dot, index) => {
     rightSideOfSvg.innerHTML = dotContent3[index];
 
     //change the color
+    backdiv.className='flex  backdiv';
     backdiv.classList.add(backdivclass[index]);
+
+    leftdiv.className='h-screen w-[45rem] z-0 leftdiv';
     leftdiv.classList.add(leftdivclass[index]);
+    svgdiv.className='rounded-r-full flex svgdiv';
     svgdiv.classList.add(svgdivclass[index]);
     
     // Remove active class from all dots and paths
@@ -289,3 +307,5 @@ dots.forEach((dot, index) => {
     });
   });
 });
+
+

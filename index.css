@@ -19,3 +19,46 @@
     font-size: 20px;
     z-index: 100;
   }
+
+  
+  .dtu {
+    opacity: 0;
+    transform: translateY(100%);
+    animation: slideIn 1s ease forwards;
+  }
+  
+  @keyframes slideIn {
+    0% {
+      opacity: 0;
+      transform: translateY(100%);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0%);
+    }
+  }
+  
+
+  .utd {
+    opacity: 0;
+    transform: translateY(-100%);
+    animation: slideInUp 1s ease forwards;
+  }
+  
+  @keyframes slideInUp {
+    0% {
+      opacity: 0;
+      transform: translateY(-100%);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0%);
+    }
+  }
+  
+  
+  
+  
+  
+  
+  
