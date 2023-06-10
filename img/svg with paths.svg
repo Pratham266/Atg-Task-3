@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Dot Icon Page</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <svg version="1.1" id="transring" xmlns="http://www.w3.org/2000/svg"
+      xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 414 414"
+      style="enable-background:new 0 0 414 414; background-color: lightblue" xml:space="preserve">
+      <!-- SVG code here -->
+    </svg>
+  </div>
+  <div class="content">
+    <h1>Content will be displayed here</h1>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
